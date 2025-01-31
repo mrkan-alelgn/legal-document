@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 30px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.document-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+.document-details {
+  display: flex;
+  gap: 20px;
+  height: 90%;
+  overflow: hidden;
+}
+.pdf-viewer {
+  flex: 2;
+  overflow-y: scroll;
+  height: 100%;
+}
+.extractions {
+  flex: 1;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
